@@ -5,6 +5,7 @@ const forecast = require('../utils/forecast')
 const geocode = require('../utils/geocode')
 
 const app = express();
+const port = process.env.PORT || 3000
 
 
 //Custom Paths
@@ -81,6 +82,6 @@ app.get('*',(req,res)=>{
 })
 
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log('The server did start correctly..!!');
 })
