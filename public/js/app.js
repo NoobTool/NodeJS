@@ -1,7 +1,3 @@
-console.log("Client-Side JS running..!!")
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 
